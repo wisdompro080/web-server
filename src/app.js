@@ -6,7 +6,7 @@ const geocode=require('../location/geocode');
 const forecast=require('../location/forecast')
 const callweather=require('../location/forecast')
 
-const port =process.env.PORT || 3000;
+const port =process.env.PORT;
 
 
 
