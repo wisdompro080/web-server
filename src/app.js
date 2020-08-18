@@ -2,9 +2,9 @@ const express=require('express');
 const app=express();
 const path=require('path');
 const hbs=require('hbs');
-const geocode=require('./location/geocode');
-const forecast=require('./location/forecast')
-const callweather=require('./location/forecast')
+const geocode=require('../location/geocode');
+const forecast=require('../location/forecast')
+const callweather=require('../location/forecast')
 
 const port =process.env.PORT || 3000;
 
