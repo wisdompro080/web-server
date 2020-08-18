@@ -1,0 +1,21 @@
+
+h1{
+    color: cyan;
+}
+img{
+    width: 250px;
+}
+
+input{
+    border:2px solid darkgrey;
+    padding: 7px;
+}
+button{
+    background-color: gray;
+    border: 2px solid black;
+    padding: 7px;
+}
+
+p{
+    color: indigo;
+}
