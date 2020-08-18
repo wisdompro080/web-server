@@ -1,6 +1,6 @@
-console.log("this is a js file"); 
 
 
+console.log("this is a js file after using commit"); 
  const weatherform=document.querySelector('form');
  const search=document.querySelector('input');
  const msg1=document.querySelector('#msg-1');
