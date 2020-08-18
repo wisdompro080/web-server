@@ -5,6 +5,11 @@ const hbs=require('hbs');
 const geocode=require('./location/geocode');
 const forecast=require('./location/forecast')
 const callweather=require('./location/forecast')
+
+const port =process.env.PORT || 3000;
+
+
+
 app.use(express.static(path.join(__dirname,'public')))
 app.set('view engine','hbs');
 app.set('views',path.join(__dirname,'tempelates/views'))
@@ -68,4 +73,4 @@ app.get('*',(req,res)=>{
 })
 
 
-app.listen(3000);     
+app.listen(port);     

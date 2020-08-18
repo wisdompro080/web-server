@@ -8,7 +8,7 @@ console.log("this is a js file after using commit");
 
  weatherform.addEventListener('submit',(e)=>{
    e.preventDefault();
-  fetch("http://localhost:3000/weather?address="+search.value)
+  fetch("/weather?address="+search.value)
   .then((res)=>{
     if(res.error){console.log("eee")}else{
       res.json().then((response)=>{
